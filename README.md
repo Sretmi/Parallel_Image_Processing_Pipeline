@@ -25,3 +25,12 @@ cd build
 # CMake ile derleyin
 cmake ..
 cmake --build .
+
+1. Serial (Referans):
+.\serial\serial_app.exe
+
+2. OpenMP :
+.\openmp\openmp_app.exe
+
+3. MPI :
+mpiexec -n [kullanmak istediğiniz işlemci sayısı] .\mpi\mpi_app.exe
